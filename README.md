@@ -1,15 +1,14 @@
-# Recast.AI starter kit NodeJS
+# Chuck Norris Bot
 
-A starter kit for developing bots on the [Recast.AI](https://recast.ai) platform.
+A simple chuck norris bot using Recast.AI's Bot Hosting
 
-> **Note:** This project is currently in beta version and can be modified at any time.
+Check out the corresponding tutorial at https://blog.recast.ai/master-bot-hosting/.
 
 ## Requirements
 
 #### Node version
 
 We recommend to use at least `node v4.3.0`
-
 
 #### Recast.AI account
 
