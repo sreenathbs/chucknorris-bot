@@ -16,16 +16,6 @@ const replyMessage = (message, text, res) => {
           type: 'quickReplies',
           content: {
             title: 'Hi! What can I do for you?',
-            buttons: [
-              {
-                title: 'Chuck Norris fact',
-                value: 'Tell me a joke',
-              },
-              {
-                title: 'Goodbye',
-                value: 'Goodbye',
-              },
-            ],
           },
         }
 
@@ -53,7 +43,7 @@ const replyMessage = (message, text, res) => {
           }
         })
       } else {
-        request('https://api.chucknorris.io/jokes/random', (_err, _res, body) => {
+        request('https://api.datamuse.com/words?ml=ringing+in+the+ears&max=1', (_err, _res, body) => {
           body = JSON.parse(body)
           const content = body.value
 
